@@ -147,16 +147,4 @@ def get_weather(city: str) -> str:
 
 Kiểu tham số và bắt buộc/không được suy ra tự động từ type hint + default.
 
----
-
-## 🗺️ Lộ trình
-
-- [x] Quản lý công việc / nhắc nhở
-- [x] Trí nhớ dài hạn
-- [x] Đọc & sắp xếp file
-- [x] **Gmail** (đọc/soạn/gửi mail) — qua Google OAuth
-- [x] **Calendar** (xem/tạo/sửa/xoá sự kiện) — qua Google OAuth
-- [ ] Nhắc nhở chủ động (scheduler nền)
-- [ ] Quản lý context (cắt/tóm tắt khi gần đầy)
-- [ ] Đọc PDF/Word
-```
+--
