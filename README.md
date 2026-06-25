@@ -127,24 +127,4 @@ ai_agent_for_myself/
 
 ---
 
-## 🔧 Thêm tool mới
 
-Hệ thống tự đăng ký + tự sinh schema từ type hint. Chỉ cần viết 1 hàm với decorator
-`@tool` trong một module dưới `tools/`, rồi thêm vào `load_all()` trong
-`tools/__init__.py`:
-
-```python
-from . import tool
-
-@tool(
-    "Mô tả tool cho model.",
-    city="Tên thành phố cần xem thời tiết.",
-)
-def get_weather(city: str) -> str:
-    ...
-    return "Hà Nội: 30°C, nắng"
-```
-
-Kiểu tham số và bắt buộc/không được suy ra tự động từ type hint + default.
-
---
