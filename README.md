@@ -127,4 +127,11 @@ ai_agent_for_myself/
 
 ---
 
+## 🤝 Đóng góp
+
+Mọi đóng góp đều được hoan nghênh! Hãy tạo nhánh từ `main`, commit thay đổi và mở
+Pull Request để mô tả những gì bạn đã thay đổi.
+
+---
+
 
